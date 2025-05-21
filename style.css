@@ -65,8 +65,8 @@
       background: #555;
     }
 
-
-    /* Changes the nav  bar on small screens to be horizonal rather the vertical */
+    /* Changes the nav  bar on small screens to be 
+     * horizonal rather the vertical */
     @media (max-width: 600px) {
       nav {
         flex-direction: column;
@@ -84,7 +84,7 @@
     section {
       margin-bottom: 2rem;
       background-color: #215684;
-      padding: 0.5rem;
+      padding: 1rem;
     }
 
 
