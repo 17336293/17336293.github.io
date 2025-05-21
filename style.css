@@ -1,4 +1,5 @@
-    body {/* controls main structure of the page */
+/* controls main structure of the page */    
+      body {
       /* Control Font */
       font-family: 'Arial', sans-serif;
       color: #fff;
@@ -20,7 +21,10 @@
       background-color: #171314;
     }
 
+
+/* Setting for all headers*/
     header {
+      /* Set default parameters for all headers*/
       background: #333;
       padding: 1.5rem 0;
       
@@ -70,7 +74,7 @@
     }
 
 
-
+/* Containers and Sections */
     .container {
       max-width: 960px;
       margin: auto;
@@ -84,6 +88,7 @@
     }
 
 
+/* Footer settings */
     footer {
       /* Text settings*/
       text-align: center;
