@@ -22,7 +22,7 @@
 
     header {
       background: #333;
-      padding: 2rem 0;
+      padding: 1.5rem 0;
       
       /* Text settings*/
       font-family: 'Arial', sans-serif;
@@ -39,7 +39,7 @@
     header h2 {
       /* controls the font in the secondary header */
       font-size: 1.2rem;
-      color: #d9d9d9;
+      color: #d5d5d5;
       text-decoration: none;
     }
 
