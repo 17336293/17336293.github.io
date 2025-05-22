@@ -55,17 +55,20 @@
       display: flex;
       justify-content: center;
       background: #444;
+      
     }
 
     nav a {
       color: #fff;
       padding: 1rem;
       text-decoration: none;
+      margin-right: 1rem;
     }
 
     nav a:hover {
       background: #555;
     }
+    
 
     /* Changes the nav  bar on small screens to be 
      * horizonal rather the vertical */
@@ -95,6 +98,51 @@
     max-width: 300px;
     }
 
+/* Dropdowns*/
+
+button {
+  text-align: center;
+}
+
+button:hover {
+  background: #555;
+}
+
+.drowpdown-content {
+  display: none;
+  position: absolute;
+  background-color: #447bff;
+  /* padding: 0.5rem;*/
+  top: 100%;
+  left: 0;
+}
+
+/* Locks the position of drop down menu to appear beside the button*/
+.dropdown {
+  position: relative;
+}
+
+
+/* Enables Hover Feature*/
+.dropdown:hover .drowpdown-content {
+  display: block;
+}
+
+/* Style of each item in a dropdown box*/
+.drowpdown-content a {
+  display: block;
+  padding: 0.5rem;
+  text-decoration: none;
+}
+
+/* Style of individual dropdown box*/
+.droptn {
+  background-color: #444;
+  color: #fff;
+  padding: 1rem;
+  border: none;
+  cursor: pointer;
+}
 
 /* Footer settings */
     footer {
@@ -104,10 +152,5 @@
       
       /*Box settings*/
       background: #333;
-      
-      /* Set the fotter to centre bottem of page*/
-      position: fixed; 
-      bottom: 0;
-      left: 0;
-      width: 100%;
+      padding: 0.5rem;
     }
