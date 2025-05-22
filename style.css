@@ -82,12 +82,6 @@
       
     }
   
-    @media (max-width: 600px) {
-  .dropdown-content {
-    position: static;
-
-  }
-}
 
 /* Containers and Sections */
     .container {
@@ -160,6 +154,13 @@ button:hover {
   padding: 1rem;
   border: none;
   cursor: pointer;
+}
+
+/* Improves Performance on Mobile Apps*/
+@media (max-width: 600px) {
+  .dropdown-content {
+    position: static;
+    }
 }
 
 /* Footer settings */
