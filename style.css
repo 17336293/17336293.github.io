@@ -98,9 +98,21 @@
 
 
     .profile_pic {
-    width: 40%;
-    max-width: 300px;
+      width: 40%;
+      max-width: 300px;
     }
+
+    embed {
+      width: 100%; 
+      background-color: #FFFFFF;
+    }
+
+
+#about_button {
+      text-align: center;
+      align-content: bottem;
+}
+
 
 /* Dropdowns*/
 
