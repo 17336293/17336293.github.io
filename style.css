@@ -8,7 +8,7 @@
       line-height: 1.2;
       
       /* Set Background Image*/
-      background-image : url("images/rek_coast.jpg");
+      background-image : url("source_images/rek_coast.jpg");
       background-repeat: no-repeat;
       background-position: center;
       width: auto;
@@ -113,6 +113,10 @@
       align-content: bottem;
 }
 
+.text-frame {
+  width: 100%;
+  font-family: 'Arial', sans-serif;
+}
 
 /* Dropdowns*/
 

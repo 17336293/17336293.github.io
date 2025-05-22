@@ -8,13 +8,25 @@
     
 </head>
 <body>
-
+  
+  <script>
+  fetch('about_me.txt')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('about_me').innerText = data;
+    });
+    
+</script>
+  
+  
   <header>
-    <img src = 'images/me_scotland_2022_editv1.png' class="profile_pic" >
+    <img src = 'source_images/me_scotland_2022_editv1.png' class="profile_pic" >
     <h1><i>Christopher Doyle</i></h1>
     <h2>Data Analyst | Web Developer | Mini Painter </h2>
   </header>
 
+  
+  
   <nav>
     
     <a id="about_button" href="#about" >About Me</a>
@@ -22,9 +34,9 @@
     <div class = "dropdown"> 
           <button class="droptn"> Academic History </button>
           <div class="drowpdown-content"> 
-            <a class = "comp_sci" href="#">MSc in Computer Science (Conversion)</a> 
-            <a class = "commerce" href="#">Bachelor's in Commerce</a>
-            <a class = "colaiste_eanna" href="#">Coláiste Éanna</a> 
+            <a class = "comp_sci" href="academics.html#comp_sci">MSc in Computer Science (Conversion)</a> 
+            <a class = "commerce" href="academics.html">Bachelor's in Commerce</a>
+            <a class = "colaiste_eanna" href="academics.html">Coláiste Éanna</a> 
           </div>
     </div>
 
@@ -54,15 +66,14 @@
       </div>
     </div>
     
-    
-  
   </nav>
 
+  
+  
   <div class="container">
     <section id="about">
       <h2>About Me</h2>
-      <p> If your reading this, I can only say thank you for visting my website. 10 years ago, when I was </p>
-      
+      <p id = "about_me"> </p>      
     </section>
 
     <section id="professional_projects">
@@ -75,6 +86,8 @@
 
   </div>
 
+  
+  
   <footer>
     <p>&copy; 2025 Christoper Doyle. All rights reserved.</p>
   </footer>
