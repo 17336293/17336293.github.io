@@ -102,11 +102,6 @@
       max-width: 300px;
     }
 
-    embed {
-      width: 100%; 
-      background-color: #FFFFFF;
-    }
-
 
 #about_button {
       text-align: center;
@@ -121,8 +116,8 @@
 /* Dropdowns*/
 
 div {
-      padding-left: 0.5rem;  
-      padding-right: 0.5rem;  
+      padding: 0.5rem;  
+      padding-top: 0;  
 }
 
 button {
