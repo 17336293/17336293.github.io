@@ -3,6 +3,7 @@
       /* Control Font */
       font-family: 'Arial', sans-serif;
       color: #fff;
+      font-size: 14px;
       
       /* Control Line spacing */
       line-height: 1.2;
@@ -66,7 +67,13 @@
     nav a:hover {
       background: #555;
     }
-    
+
+.about_me {
+  background-color: #444;
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
+}
 
     /* Changes the nav  bar on small screens to be 
      * horizonal rather the vertical */
@@ -83,7 +90,7 @@
     }
   
 
-/* Containers and Sections */
+/* Containers, Sections, lists, and more */
     .container {
       max-width: 960px;
       margin: auto;
@@ -96,22 +103,27 @@
       padding: 1rem;
     }
 
-
     .profile_pic {
       width: 40%;
       max-width: 300px;
     }
 
+    li {
+          margin-bottom: 10px;
+          
+    }
 
+/*
 #about_button {
       text-align: center;
       align-content: bottem;
-}
+} */
 
 .text-frame {
   width: 100%;
   font-family: 'Arial', sans-serif;
 }
+
 
 /* Dropdowns*/
 
@@ -141,10 +153,8 @@ button:hover {
 /* Locks the position of drop down menu to appear beside the button*/
 .dropdown {
   position: relative;
-  text-align: left;
-  
+  text-align: left; 
 }
-
 
 /* Enables Hover Feature*/
 .dropdown:hover .drowpdown-content {
@@ -173,6 +183,7 @@ button:hover {
     position: static;
     }
 }
+
 
 /* Footer settings */
     footer {
