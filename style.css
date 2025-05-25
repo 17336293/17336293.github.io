@@ -108,10 +108,15 @@
     }
 
     section {
-      margin-bottom: 2rem;
+      margin-bottom: 1rem;
       background-color: #215684;
       padding: 1rem;
       border-radius: 10px; 
+    }
+
+    section.section_head{
+      margin-top: 4rem;
+      padding: none;
     }
 
     .profile_pic {
@@ -121,14 +126,8 @@
 
     li {
           margin-bottom: 10px;
-          
     }
 
-/*.text-frame {
-  width: 100%;
-  font-family: 'Arial', sans-serif;
-}
-*/
 
 /* Dropdowns*/
 
