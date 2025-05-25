@@ -34,7 +34,15 @@
     <div class="container">
         <section id="intro_academic">
             <h2>Academic History</h2>
-            <p></p>
+            <p id = academics_intro>
+              <script>
+                fetch('academics_resources/intro_academic.txt')
+                  .then(response => response.text())
+                  .then(data => {
+                    document.getElementById('academics_intro').innerText = data;
+                  });
+              </script>
+            </p>
         </section>
 
         <section id="comp_sci">
