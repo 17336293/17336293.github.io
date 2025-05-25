@@ -12,7 +12,7 @@
       
     <nav id=nav_bar>
       <script>
-        fetch('nav_bar.html')
+        fetch('all_master_resources/nav_bar.html')
           .then(response => response.text())
           .then(data => {
             document.getElementById('nav_bar').innerHTML = data;
@@ -22,7 +22,7 @@
     
     <header id=header>
       <script>
-        fetch('header.html')
+        fetch('all_master_resources/header.html')
           .then(response => response.text())
           .then(data => {
             document.getElementById('header').innerHTML = data;
