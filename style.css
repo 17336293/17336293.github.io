@@ -55,7 +55,7 @@
       justify-content: center;
       background: #444;
       flex-wrap: wrap;
-      gap: 1rem;
+      padding-top: 10px;
     }
 
     nav a {
@@ -68,7 +68,7 @@
       background: #555;
     }
 
-.about_me {
+.nav_bar_button {
   background-color: #444;
   color: #fff;
   display: inline-block;

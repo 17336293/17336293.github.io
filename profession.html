@@ -9,58 +9,26 @@
     
     <body>
     
-      
-    <header>
-        <img src = 'source_images/me_scotland_2022_editv1.png' class="profile_pic" >
-        <h1><i>Christopher Doyle</i></h1>
-        <h2>Data Analyst | Web Developer | Mini Painter </h2>
-    </header>
-
-    
-    <nav>
-    
-        <div class = "dropdown">
-            <a class ="about_me" href="index.html">About Me</a>
-        </div>
-
-    
-        <div class = "dropdown"> 
-            <button class="droptn" href="academics.html"> Academic History </button>
-            <div class="drowpdown-content"> 
-              <a class = "comp_sci" href="academics.html#comp_sci">MSc in Computer Science (Conversion)</a> 
-              <a class = "commerce" href="academics.html#commerce">Bachelor's in Commerce</a>
-              <a class = "colaiste_eanna" href="academics.html#high_school">Coláiste Éanna</a> 
-            </div>
-        </div>
-
-        <div class = "dropdown"> 
-              <button class="droptn"> Professional Work </button>
-              <div class="drowpdown-content"> 
-                <a class = "aib" href="#">AIB - Data Analyst</a> 
-                <a class = "aib" href="#">UCD Academy - Dataset Analysis</a> 
-              </div>
-        </div>
-           
-        <div class = "dropdown"> 
-              <button class="droptn"> Miniature Painting </button>
-              <div class="drowpdown-content"> 
-                <a class = "salamanders" href="#">Salamanders</a> 
-                <a class = "tyranids" href="#">Tyranids</a> 
-                <a class = "world_eaters" href="#">World Eaters</a> 
-              </div>
-        </div>
-      
-      <div class = "dropdown"> 
-            <button class="droptn"> Contact Me</button>
-            <div class="drowpdown-content"> 
-              <a class = "linkin" href="https://www.linkedin.com/in/christopher-d-054407152/" target="_blank">Linked-In</a>
-              <a class = "github" href="https://github.com/christopherDoyle1111/" target="_blank">GitHub</a>  
-              <a class = "steam" href="https://steamcommunity.com/profiles/76561198066343759/">Steam</a>
-              <a class = "twitter_lamo" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Twitter</a>  
-        </div>
-      </div>
-    
+       <nav id=nav_bar>
+      <script>
+        fetch('nav_bar.html')
+          .then(response => response.text())
+          .then(data => {
+            document.getElementById('nav_bar').innerHTML = data;
+          });
+      </script>
     </nav>
+    
+    <header id=header>
+      <script>
+        fetch('header.html')
+          .then(response => response.text())
+          .then(data => {
+            document.getElementById('header').innerHTML = data;
+          });
+      </script>
+    </header>
+  
     
     <div class="container">
         <section id="intro_profession">
