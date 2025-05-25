@@ -22,7 +22,6 @@
       background-color: #171314;
     }
 
-
 /* Setting for all headers*/
     header {
       /* Set default parameters for all headers*/
@@ -36,8 +35,6 @@
       color: #fff;      
       text-align: center;
     }
-
-
 
     header h1 {
       /* controls the font in the primary header */
@@ -127,17 +124,11 @@
           
     }
 
-/*
-#about_button {
-      text-align: center;
-      align-content: bottem;
-} */
-
-.text-frame {
+/*.text-frame {
   width: 100%;
   font-family: 'Arial', sans-serif;
 }
-
+*/
 
 /* Dropdowns*/
 
