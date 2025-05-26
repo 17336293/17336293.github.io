@@ -100,7 +100,7 @@
   
 
 /* Containers, Sections, lists, and more */
-    .container {
+    div.container {
       max-width: 960px;
       margin: auto;
       padding: 2rem;
@@ -119,13 +119,16 @@
       padding: none;
     }
 
-    .profile_pic {
+    img.profile_pic {
       width: 40%;
       max-width: 300px;
     }
 
     li {
           margin-bottom: 10px;
+    }
+
+    img.logo {   float: right;
     }
 
 
