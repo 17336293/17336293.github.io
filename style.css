@@ -197,6 +197,7 @@ button:hover {
       /* Text settings*/
       text-align: center;
       color: #fff;
+      bottom: 0;
       
       /*Box settings*/
       background: #333;
